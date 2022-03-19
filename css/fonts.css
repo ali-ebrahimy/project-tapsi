@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "iranYekan";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../assets/fonts/IRANYekanWebRegular.woff") format("woff"); /* Pretty Modern Browsers */
+}
+@font-face {
+  font-family: "iranYekan";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../assets/fonts/IRANYekanWebBold.woff") format("woff"); /* Pretty Modern Browsers */
+}
+/* Deepest Possible Browser Support */
+@font-face {
+  font-family: "iranYekan";
+  src: url("../assets/fonts/IRANYekanWebRegular.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/IRANYekanWebRegular.eot")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../assets/fonts/IRANYekanWebRegular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../assets/fonts/IRANYekanWebRegular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../assets/fonts/IRANYekanWebRegular.svg")
+      format("svg"); /* Legacy iOS */
+}
+body,
+button {
+  font-family: "iranYekan";
+}
