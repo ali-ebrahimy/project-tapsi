@@ -1040,6 +1040,12 @@ input[type="submit"] {
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  margin-right: 2px;
   color: #fcfcfc;
+  transition: all .2s ease-in;
+  
+  cursor: pointer;
+}
+.hidden-avatars:hover{
+  transform:translateX(-3px);
+  
 }
