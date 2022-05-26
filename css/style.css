@@ -1000,6 +1000,13 @@ input[type="submit"] {
   align-items: center;
   color: #cacaca;
 }
+.slide__details .slide__icon i{
+  cursor: pointer;
+}
+.slide__details .slide__icon .fa-heart.heart{
+ 
+ color: red;
+}
 @media screen and (min-width: 1024px) {
   .travell__slides {
     display: grid;
