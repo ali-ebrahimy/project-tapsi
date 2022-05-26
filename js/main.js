@@ -27,17 +27,17 @@ let newNum=0;
  heartI.forEach((e)=>{
    e.addEventListener("click",()=>{
      e.classList.toggle("heart")
-     const classList=e.classList;    
-       numberHeart.forEach((h)=>{
-        if(classList.contains("heart")) {
-          newNum=Number(h.innerHTML)+1;
-          h.innerHTML=newNum;
-        }
-        else{
-          newNum=Number(h.innerHTML)-1;
-          h.innerHTML=newNum;
-        } 
-       })   
+     const classList=e.classList; 
+     const spanHeart=e.nextElementSibling;   
+       if(classList.contains("heart")){
+         
+         newNum=Number(spanHeart.innerHTML)+1;
+         spanHeart.innerHTML=newNum;
+       }
+       else{
+         newNum=Number(spanHeart.innerHTML)-1;
+         spanHeart.innerHTML=newNum;
+       }
    })
  })
   
